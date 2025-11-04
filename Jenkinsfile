@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     environment {
-        SONAR_PROJECT_KEY = 'MULTI AI AGENT'
+        SONAR_PROJECT_KEY = 'MULTI_AI_AGENT'
 		SONAR_SCANNER_HOME = tool 'SonarQube'
         // AWS_REGION = 'us-east-1'
         // ECR_REPO = 'my-repo'
